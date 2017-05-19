@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ *
+  ~ *
+  ~ * © Copyright 2017
+  ~ * Fidelity National Information Services, Inc. and/or its subsidiaries - All Rights Reserved worldwide.
+  ~ *
+  ~ * This document is protected under the trade secret and copyright laws as the
+  ~ property of Fidelity National Information Services, Inc. and/or its subsidiaries.
+  ~ *
+  ~ * Copying, reproduction or distribution should be limited and only to employees
+  ~ with a “need to know” to do their job. Any disclosure of this document to third
+  ~ parties is strictly prohibited.
+  ~ *
+  ~ *
+  -->
+
+<android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/AppTheme.AppBarOverlay"
+    >
+
+    <android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:elevation="@dimen/_5jdp"
+    app:popupTheme="@style/AppTheme.PopupOverlay"
+    >
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/imgcd_image"
+        android:src="@drawable/img_logo_fis_white" />
+</android.support.v7.widget.Toolbar>
+</android.support.design.widget.AppBarLayout>

@@ -1,0 +1,28 @@
+<!--
+  ~ *
+  ~ *
+  ~ * © Copyright 2017
+  ~ * Fidelity National Information Services, Inc. and/or its subsidiaries - All Rights Reserved worldwide.
+  ~ *
+  ~ * This document is protected under the trade secret and copyright laws as the
+  ~ property of Fidelity National Information Services, Inc. and/or its subsidiaries.
+  ~ *
+  ~ * Copying, reproduction or distribution should be limited and only to employees
+  ~ with a “need to know” to do their job. Any disclosure of this document to third
+  ~ parties is strictly prohibited.
+  ~ *
+  ~ *
+  -->
+
+<resources>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+
+</resources>

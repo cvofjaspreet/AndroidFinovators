@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ *
+  ~ *
+  ~ * © Copyright 2017
+  ~ * Fidelity National Information Services, Inc. and/or its subsidiaries - All Rights Reserved worldwide.
+  ~ *
+  ~ * This document is protected under the trade secret and copyright laws as the
+  ~ property of Fidelity National Information Services, Inc. and/or its subsidiaries.
+  ~ *
+  ~ * Copying, reproduction or distribution should be limited and only to employees
+  ~ with a “need to know” to do their job. Any disclosure of this document to third
+  ~ parties is strictly prohibited.
+  ~ *
+  ~ *
+  -->
+
+<resources>
+
+    <style name="TextTiny">
+        <item name="android:textSize">@dimen/_8jdp</item>
+    </style>
+    <style name="TextSmall">
+        <item name="android:textSize">@dimen/_10jdp</item>
+    </style>
+    <style name="TextMedium">
+        <item name="android:textSize">@dimen/_12jdp</item>
+    </style>
+    <style name="TextLarge">
+        <item name="android:textSize">@dimen/_14jdp</item>
+    </style>
+    <style name="TextVeryLarge">
+        <item name="android:textSize">@dimen/_16jdp</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- FullScreen -->
+    <style name="AppTheme.FullScreen" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <!-- NoActionBar -->
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+    <!--Navigation Drawer-->
+    <style name="AppTheme.NavigationDrawer" parent="AppTheme.NoActionBar">
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+    <!-- Navigation Drawer ArrowToggle Style -->
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+    <!--ColorAccent overwrite with ColorPrimary style-->
+    <style name="AppTheme.ColorAccentColorPrimary">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

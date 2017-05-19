@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24px"
+            android:title="@string/action_home" />
+        <item
+            android:id="@+id/nav_business_app"
+            android:icon="@mipmap/ic_business_center_white_24dp"
+            android:title="@string/action_business_app" />
+        <item
+            android:id="@+id/nav_employee"
+            android:icon="@mipmap/ic_work_white_24dp"
+            android:title="@string/action_employee_app" />
+        <item
+            android:id="@+id/nav_finance"
+            android:icon="@mipmap/ic_account_balance_white_24dp"
+            android:title="@string/action_finance_app" />
+
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@mipmap/ic_report_white_24dp"
+            android:title="@string/action_report_app" />
+
+    </group>
+
+</menu>

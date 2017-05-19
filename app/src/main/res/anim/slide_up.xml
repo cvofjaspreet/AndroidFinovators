@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ *
+  ~ *
+  ~ * © Copyright 2017
+  ~ * Fidelity National Information Services, Inc. and/or its subsidiaries - All Rights Reserved worldwide.
+  ~ *
+  ~ * This document is protected under the trade secret and copyright laws as the
+  ~ * property of Fidelity National Information Services, Inc. and/or its subsidiaries.
+  ~ *
+  ~ * Copying, reproduction or distribution should be limited and only to employees
+  ~ * with a “need to know” to do their job. Any disclosure of this document to third
+  ~ * parties is strictly prohibited.
+  ~ *
+  ~ *
+  -->
+
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true">
+
+    <scale
+        android:duration="500"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:toXScale="1.0"
+        android:toYScale="0.0" />
+</set>

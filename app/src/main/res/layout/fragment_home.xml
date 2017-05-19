@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<com.fis.fisglobal.lib.widget.textview.RegularTextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textColor="@color/black"
+    android:text="@string/home_text"
+    android:padding="@dimen/_10jdp"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/_16jdp"
+        android:orientation="vertical"
+        >
+    <com.fis.fisglobal.lib.widget.textview.BoldTextView
+        android:layout_marginTop="@dimen/_20jdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/categories"
+        style="@style/TextLarge"
+        />
+
+
+        <com.fis.fisglobal.lib.widget.button.BoldButton
+            android:layout_marginTop="@dimen/_20jdp"
+            android:layout_height="wrap_content"
+            android:text="@string/action_business_app"
+            style="@style/TextLarge"
+            android:textColor="@color/white"
+            android:layout_width="@dimen/_200jdp"
+            android:background="@drawable/bg_btn_primary_style"
+            android:id="@+id/businessApps"
+            />
+        <com.fis.fisglobal.lib.widget.button.BoldButton
+            android:layout_marginTop="@dimen/_20jdp"
+            android:layout_height="wrap_content"
+            android:text="@string/action_employee_app"
+            style="@style/TextLarge"
+            android:id="@+id/employeeApps"
+            android:background="@drawable/bg_btn_primary_style"
+            android:textColor="@color/white"
+            android:layout_width="@dimen/_200jdp"
+            />
+        <com.fis.fisglobal.lib.widget.button.BoldButton
+            android:layout_marginTop="@dimen/_20jdp"
+            android:layout_height="wrap_content"
+            android:text="@string/action_finance_app"
+            style="@style/TextLarge"
+            android:id="@+id/financeApps"
+            android:background="@drawable/bg_btn_primary_style"
+            android:textColor="@color/white"
+            android:layout_width="@dimen/_200jdp"
+            />
+        <com.fis.fisglobal.lib.widget.button.BoldButton
+            android:layout_marginTop="@dimen/_20jdp"
+            android:layout_height="wrap_content"
+            android:text="@string/action_report_app"
+            style="@style/TextLarge"
+            android:id="@+id/reportsApps"
+            android:background="@drawable/bg_btn_primary_style"
+            android:textColor="@color/white"
+            android:layout_width="@dimen/_200jdp"
+            />
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+</ScrollView>

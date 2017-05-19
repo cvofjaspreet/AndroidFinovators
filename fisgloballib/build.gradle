@@ -1,0 +1,48 @@
+/*
+ *
+ *
+ *  © Fidelity National Information Services, Inc. 2017
+ *  Fidelity National Information Services, Inc. and/or its subsidiaries - All Rights
+ * Reserved worldwide.
+ *  This document is protected under the trade secret and copyright laws as the
+ * property of Fidelity National Information Services, Inc. and/or its subsidiaries.
+ *
+ *  Copying, reproduction or distribution should be limited and only to employees
+ * with a “need to know” to do their job. Any disclosure of this document to third
+ * parties is strictly prohibited.
+ *
+ *
+ */
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.1"
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.0.1'
+    compile 'com.android.support:recyclerview-v7:25.0.1'
+    testCompile 'junit:junit:4.12'
+}

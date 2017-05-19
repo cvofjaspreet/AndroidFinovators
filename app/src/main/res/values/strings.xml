@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">App Store</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="action_home">Home</string>
+    <string name="action_business_app">Business Apps</string>
+    <string name="action_employee_app">Employee Apps</string>
+    <string name="action_finance_app">Finance Apps</string>
+    <string name="action_report_app">Report Apps</string>
+    <string name="action_log_out">Log Out</string>
+    <string name="action_login">Submit</string>
+
+    <string name="employee_id">Employee ID</string>
+    <string name="password">Password</string>
+    <string name="pass_code">Pass code</string>
+
+    <string name="enter_eid">Enter Your Employee ID</string>
+    <string name="enter_password">Enter Your Password </string>
+    <string name="enter_pass_code">Enter Your Pass Code</string>
+
+    <string name="home_text">Fis Enterprise App store take care of Android and ios Enterprise Apps that can be accessed by their employees or the clients we want to show case too.\n\nWe want to save employee time and the cost of company and help them provide the updates from Fis portal only. No links no update headache, just feel free and install app if you are allowed to!</string>
+    <string name="categories">Categories</string>
+
+</resources>
